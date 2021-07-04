@@ -1,0 +1,23 @@
+.chat {
+  .chat-messages {
+    width: 50%;
+    min-height: 50vh;
+    max-height: 50vh;
+    overflow: scroll;
+    border: 2px solid #000;
+  }
+
+  .message-item {
+    display: flex;
+    font-size: 20px;
+    
+    .username {
+      font-weight: bold;
+      padding-right: 10px;
+    }
+
+    .message-text {
+      
+    }
+  }
+}
